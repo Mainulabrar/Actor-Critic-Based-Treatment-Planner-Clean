@@ -2782,8 +2782,8 @@ parser.add_argument('--name', type=str, default='results', help='Save folder')
 parser.add_argument('--env', type=str, default='CartPole-v1',help='environment name')
 
 
-TELEGRAM_BOT_TOKEN = "7949104193:AAFdqdcHtvsIVyqrw42pOLqdHIn_vv3fkaw"  # Your Telegram bot token
-CHAT_ID = "5625785220"  # Your Telegram chat ID
+TELEGRAM_BOT_TOKEN = "*randomTokenID*"  # Your Telegram bot token
+CHAT_ID = "*RandomChatID*"  # Your Telegram chat ID
 
 
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
