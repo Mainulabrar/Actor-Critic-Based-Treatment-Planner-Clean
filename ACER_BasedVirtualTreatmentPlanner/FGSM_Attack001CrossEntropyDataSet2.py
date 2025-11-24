@@ -41,7 +41,6 @@ patient_list = ['01']
 class ActorCritic(nn.Module):
   def __init__(self, observation_space, action_space, hidden_size):
     super(ActorCritic, self).__init__()
-    # self.state_size = observation_space.shape[0]
     self.state_size = 300
     self.action_size = action_space.n
 
@@ -405,9 +404,6 @@ def runOpt_dvh(MPTV, MBLA, MREC,tPTV,tBLA, tREC, lambdaPTV, lambdaBLA, lambdaREC
     Y[:, 2] = y_rectum
 
     Y = np.reshape(Y, (100 * 3,), order='F')
-
-
-
 
     return Y, iter, xVec
 
