@@ -1,0 +1,5 @@
+# Ignore all MATLAB and HDF5 files anywhere in the repo
+*.mat
+*.h5
+*.hdf5
+*.hd5

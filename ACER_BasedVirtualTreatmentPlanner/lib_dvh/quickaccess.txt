@@ -1,0 +1,3 @@
+cd "/home/parvat/acer VTPN/lib_dvh/"
+conda activate acer1
+python data_prep_in_progress.py

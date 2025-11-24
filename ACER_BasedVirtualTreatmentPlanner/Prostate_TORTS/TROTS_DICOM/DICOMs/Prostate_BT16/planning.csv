@@ -1,0 +1,13 @@
+Name,Minimise,Objective,Sufficient,Weight,Priority,IsConstraint
+Urethra,1.0,0.01,,1.0,0.0,True
+Rectum Partial,1.0,38.0,,1.0,0.0,True
+Bladder Partial,1.0,38.0,,1.0,0.0,True
+Rectum Partial,1.0,0.0711900470152927,,1.0,0.0,True
+Bladder Partial,1.0,0.023143924470415557,,1.0,0.0,True
+Prostate,0.0,0.95,0.95,0.9093936621809666,1.0,0.0
+Urethra,1.0,0.0,,0.004622420615033833,2.0,0.0
+Rectum Partial,1.0,0.0,,0.04299195860199975,3.0,0.0
+Bladder Partial,1.0,0.0,,0.04299195860199975,3.0,0.0
+Bladder,1.0,0.0,,1.0,4.0,False
+Rectum,1.0,0.0,,1.0,4.0,False
+Unspecified Tissue,1.0,0.0,,1.0,5.0,False

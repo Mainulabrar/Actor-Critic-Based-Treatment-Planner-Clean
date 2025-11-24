@@ -1,0 +1,7 @@
+./Prostate_CK_05r.mat
+05
+beam 2821
+Traceback (most recent call last):
+  File "/home/mainul1/Actor-critic-based-treatment-planning/acer_VTPN-12-18-23/Prostate_TORTS/data_pret_TORTScor.py", line 86, in <module>
+    PTV_indices = np.zeros(PTV_voxel_num).astype(int)
+NameError: name 'PTV_voxel_num' is not defined
